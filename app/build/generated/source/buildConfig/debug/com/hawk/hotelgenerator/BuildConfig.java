@@ -7,8 +7,8 @@ public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
   public static final String APPLICATION_ID = "com.hawk.hotelgenerator";
   public static final String BUILD_TYPE = "debug";
-  public static final int VERSION_CODE = 9;
-  public static final String VERSION_NAME = "1.0.8";
+  public static final int VERSION_CODE = 10;
+  public static final String VERSION_NAME = "1.0.9";
   // Field from default config.
   public static final String AMAP_API_KEY = "4bd0f180646b62102c49f6c0186c85bb";
   // Field from default config.

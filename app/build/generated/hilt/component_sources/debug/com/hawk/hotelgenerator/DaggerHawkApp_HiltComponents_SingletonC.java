@@ -467,20 +467,20 @@ public final class DaggerHawkApp_HiltComponents_SingletonC {
 
     @IdentifierNameString
     private static final class LazyClassKeyProvider {
-      static String com_hawk_hotelgenerator_ui_screens_history_HistoryViewModel = "com.hawk.hotelgenerator.ui.screens.history.HistoryViewModel";
+      static String com_hawk_hotelgenerator_ui_screens_home_HomeViewModel = "com.hawk.hotelgenerator.ui.screens.home.HomeViewModel";
 
       static String com_hawk_hotelgenerator_ui_screens_settings_SettingsViewModel = "com.hawk.hotelgenerator.ui.screens.settings.SettingsViewModel";
 
-      static String com_hawk_hotelgenerator_ui_screens_home_HomeViewModel = "com.hawk.hotelgenerator.ui.screens.home.HomeViewModel";
+      static String com_hawk_hotelgenerator_ui_screens_history_HistoryViewModel = "com.hawk.hotelgenerator.ui.screens.history.HistoryViewModel";
 
       @KeepFieldType
-      HistoryViewModel com_hawk_hotelgenerator_ui_screens_history_HistoryViewModel2;
+      HomeViewModel com_hawk_hotelgenerator_ui_screens_home_HomeViewModel2;
 
       @KeepFieldType
       SettingsViewModel com_hawk_hotelgenerator_ui_screens_settings_SettingsViewModel2;
 
       @KeepFieldType
-      HomeViewModel com_hawk_hotelgenerator_ui_screens_home_HomeViewModel2;
+      HistoryViewModel com_hawk_hotelgenerator_ui_screens_history_HistoryViewModel2;
     }
 
     private static final class SwitchingProvider<T> implements Provider<T> {

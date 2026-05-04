@@ -1,10 +1,10 @@
-# 鹰眼酒店评价生成器 (Hawk Hotel Reviewer)
+# 霍克 酒店评价生成器 (Hawk Hotel Rate Generator)
 
 ![Version](https://img.shields.io/badge/version-1.0.8-gold)
 ![Platform](https://img.shields.io/badge/platform-Android-navy)
-![Aesthetics](https://img.shields.io/badge/design-Imperial_Nocturne-blue)
+![Brand](https://img.shields.io/badge/brand-Hawk_Personal-orange)
 
-**鹰眼酒店评价生成器** 是一款专为高端商旅人士打造的智能点评工具。它结合了“静谧奢华”的设计理念与最前沿的多模态 AI 技术，旨在为用户提供仪式感十足的酒店评价生成体验。
+**霍克 酒店评价生成器 (Hawk Hotel Rate Generator)** 是一款专为高端商旅人士打造的智能点评工具。它承载了 “Hawk” 个人品牌的追求，结合了“静谧奢华”的设计理念与最前沿的多模态 AI 技术。
 
 ## 🌟 核心亮点
 

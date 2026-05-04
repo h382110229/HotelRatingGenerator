@@ -2,7 +2,7 @@
 <resources>
     <color name="ic_launcher_background">#181209</color>
     <color name="ic_launcher_foreground">#FFD79B</color>
-    <string name="app_name">酒店评价生成器</string>
+    <string name="app_name">霍克 酒店评价生成器</string>
     <style name="Theme.HotelRatingGenerator" parent="android:Theme.Material.NoActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>

@@ -9,10 +9,14 @@
 /.idea/assetWizard.settings.xml
 .DS_Store
 /build
-/captures
+**/build/
+*.apk
+*.output
+.kotlin
+.idea
+capture/
 .externalNativeBuild
 .cxx
 local.properties
 *.keystore
 *.jks
-*.apk

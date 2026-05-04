@@ -1,0 +1,1616 @@
+Initialized native services in: /Users/hawk/.gradle/native
+Initialized jansi services in: /Users/hawk/.gradle/native
+Received JVM installation metadata from '/Applications/Android Studio.app/Contents/jbr/Contents/Home': {JAVA_HOME=/Applications/Android Studio.app/Contents/jbr/Contents/Home, JAVA_VERSION=21.0.10, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.10+-117844309-b1163.108, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.10+-117844309-b1163.108, VM_VENDOR=JetBrains s.r.o., OS_ARCH=x86_64}
+Removing 2 daemon stop events from registry
+Starting a Gradle Daemon (subsequent builds will be faster)
+Starting process 'Gradle build daemon'. Working directory: /Users/hawk/.gradle/daemon/8.7 Command: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -Xmx2048m -Dfile.encoding=UTF-8 -Duser.country=CN -Duser.language=zh -Duser.variant -cp /Users/hawk/.gradle/wrapper/dists/gradle-8.7-bin/bhs2wmbdwecv87pi65oeuq5iu/gradle-8.7/lib/gradle-launcher-8.7.jar -javaagent:/Users/hawk/.gradle/wrapper/dists/gradle-8.7-bin/bhs2wmbdwecv87pi65oeuq5iu/gradle-8.7/lib/agents/gradle-instrumentation-agent-8.7.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.7
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 1.822 secs.
+The client will now receive all logging from the daemon (pid: 94610). The daemon log file: /Users/hawk/.gradle/daemon/8.7/daemon-94610.out.log
+Starting build in new daemon [memory: 2 GiB]
+Using 24 worker leases.
+Received JVM installation metadata from '/Applications/Android Studio.app/Contents/jbr/Contents/Home': {JAVA_HOME=/Applications/Android Studio.app/Contents/jbr/Contents/Home, JAVA_VERSION=21.0.10, JAVA_VENDOR=JetBrains s.r.o., RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.10+-117844309-b1163.108, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.10+-117844309-b1163.108, VM_VENDOR=JetBrains s.r.o., OS_ARCH=x86_64}
+Watching the file system is configured to be enabled if available
+Now considering [/Users/hawk/Github/Antigravity/HotelRatingGenerator] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/hawk/Github/Antigravity/HotelRatingGenerator/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/hawk/Github/Antigravity/HotelRatingGenerator/build.gradle.kts'.
+Included projects: [root project 'HotelRatingGenerator', project ':app']
+
+> Configure project :
+Evaluating root project 'HotelRatingGenerator' using build file '/Users/hawk/Github/Antigravity/HotelRatingGenerator/build.gradle.kts'.
+Transforming hilt-android-gradle-plugin-2.51.1.jar (com.google.dagger:hilt-android-gradle-plugin:2.51.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gradle-8.4.0.jar (com.android.tools.build:gradle:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gradle-settings-api-8.4.0.jar (com.android.tools.build:gradle-settings-api:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming lint-model-31.4.0.jar (com.android.tools.lint:lint-model:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming builder-8.4.0.jar (com.android.tools.build:builder:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming manifest-merger-31.4.0.jar (com.android.tools.build:manifest-merger:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming sdk-common-31.4.0.jar (com.android.tools:sdk-common:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming sdklib-31.4.0.jar (com.android.tools:sdklib:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming repository-31.4.0.jar (com.android.tools:repository:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming aaptcompiler-8.4.0.jar (com.android.tools.build:aaptcompiler:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming tracker-31.4.0.jar (com.android.tools.analytics-library:tracker:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming shared-31.4.0.jar (com.android.tools.analytics-library:shared:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming databinding-compiler-common-8.4.0.jar (androidx.databinding:databinding-compiler-common:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-host-emulator-control-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-host-emulator-control-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-host-retention-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-host-retention-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming builder-model-8.4.0.jar (com.android.tools.build:builder-model:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gradle-api-8.4.0.jar (com.android.tools.build:gradle-api:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming builder-test-api-8.4.0.jar (com.android.tools.build:builder-test-api:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming ddmlib-31.4.0.jar (com.android.tools.ddms:ddmlib:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming layoutlib-api-31.4.0.jar (com.android.tools.layoutlib:layoutlib-api:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming dvlib-31.4.0.jar (com.android.tools:dvlib:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming common-31.4.0.jar (com.android.tools:common:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-stdlib-jdk8-1.9.20.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.20) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jetifier-processor-1.0.0-beta10.jar (com.android.tools.build.jetifier:jetifier-processor:1.0.0-beta10) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jetifier-core-1.0.0-beta10.jar (com.android.tools.build.jetifier:jetifier-core:1.0.0-beta10) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-reflect-1.9.22.jar (org.jetbrains.kotlin:kotlin-reflect:1.9.22) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-stdlib-jdk7-1.9.20.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.20) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-stdlib-1.9.22.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.22) with ExternalDependencyInstrumentingArtifactTransform
+Transforming annotations-13.0.jar (org.jetbrains:annotations:13.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-model-1.9.24.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-model:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-api-1.9.24.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-1.9.24-gradle82.jar (org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming bundletool-1.15.6.jar (com.android.tools.build:bundletool:1.15.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming aapt2-proto-8.4.0-11315950.jar (com.android.tools.build:aapt2-proto:8.4.0-11315950) with ExternalDependencyInstrumentingArtifactTransform
+Transforming crash-31.4.0.jar (com.android.tools.analytics-library:crash:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming lint-typedef-remover-31.4.0.jar (com.android.tools.lint:lint-typedef-remover:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming databinding-common-8.4.0.jar (androidx.databinding:databinding-common:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming baseLibrary-8.4.0.jar (com.android.databinding:baseLibrary:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-device-provider-ddmlib-proto-31.4.0.jar (com.android.tools.utp:android-device-provider-ddmlib-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-device-provider-gradle-proto-31.4.0.jar (com.android.tools.utp:android-device-provider-gradle-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-host-additional-test-output-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-host-additional-test-output-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-host-coverage-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-host-coverage-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-host-logcat-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-host-logcat-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-host-apk-installer-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-host-apk-installer-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming android-test-plugin-result-listener-gradle-proto-31.4.0.jar (com.android.tools.utp:android-test-plugin-result-listener-gradle-proto:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming transform-api-2.0.0-deprecated-use-gradle-api.jar (com.android.tools.build:transform-api:2.0.0-deprecated-use-gradle-api) with ExternalDependencyInstrumentingArtifactTransform
+Transforming httpmime-4.5.6.jar (org.apache.httpcomponents:httpmime:4.5.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-io-2.13.0.jar (commons-io:commons-io:2.13.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-commons-9.6.jar (org.ow2.asm:asm-commons:9.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-util-9.6.jar (org.ow2.asm:asm-util:9.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-analysis-9.6.jar (org.ow2.asm:asm-analysis:9.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-tree-9.6.jar (org.ow2.asm:asm-tree:9.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming asm-9.6.jar (org.ow2.asm:asm:9.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming apkzlib-8.4.0.jar (com.android.tools.build:apkzlib:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming bcpkix-jdk18on-1.77.jar (org.bouncycastle:bcpkix-jdk18on:1.77) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jaxb-runtime-2.3.2.jar (org.glassfish.jaxb:jaxb-runtime:2.3.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jopt-simple-4.9.jar (net.sf.jopt-simple:jopt-simple:4.9) with ExternalDependencyInstrumentingArtifactTransform
+Transforming javapoet-1.13.0.jar (com.squareup:javapoet:1.13.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming protobuf-java-util-3.22.3.jar (com.google.protobuf:protobuf-java-util:3.22.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-protobuf-1.57.0.jar (io.grpc:grpc-protobuf:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming tink-1.7.0.jar (com.google.crypto.tink:tink:1.7.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming protos-31.4.0.jar (com.android.tools.analytics-library:protos:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming proto-google-common-protos-2.17.0.jar (com.google.api.grpc:proto-google-common-protos:2.17.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming protobuf-java-3.22.3.jar (com.google.protobuf:protobuf-java:3.22.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-netty-1.57.0.jar (io.grpc:grpc-netty:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-core-1.57.0.jar (io.grpc:grpc-core:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming gson-2.10.1.jar (com.google.code.gson:gson:2.10.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-stub-1.57.0.jar (io.grpc:grpc-stub:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming core-proto-0.0.9-alpha02.jar (com.google.testing.platform:core-proto:0.0.9-alpha02) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kxml2-2.3.0.jar (net.sf.kxml:kxml2:2.3.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming tensorflow-lite-metadata-0.1.0-rc2.jar (org.tensorflow:tensorflow-lite-metadata:0.1.0-rc2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming flatbuffers-java-1.12.0.jar (com.google.flatbuffers:flatbuffers-java:1.12.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-idea-proto-1.9.24.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea-proto:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-idea-1.9.24.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-idea:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-klib-commonizer-api-1.9.24.jar (org.jetbrains.kotlin:kotlin-klib-commonizer-api:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-native-utils-1.9.24.jar (org.jetbrains.kotlin:kotlin-native-utils:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-util-klib-1.9.24.jar (org.jetbrains.kotlin:kotlin-util-klib:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-build-tools-api-1.9.24.jar (org.jetbrains.kotlin:kotlin-build-tools-api:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-android-extensions-1.9.24.jar (org.jetbrains.kotlin:kotlin-android-extensions:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-compiler-runner-1.9.24.jar (org.jetbrains.kotlin:kotlin-compiler-runner:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-compiler-embeddable-1.9.24.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-embeddable-1.9.24.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-compiler-impl-embeddable-1.9.24.jar (org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jimfs-1.1.jar (com.google.jimfs:jimfs:1.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-context-1.57.0.jar (io.grpc:grpc-context:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-protobuf-lite-1.57.0.jar (io.grpc:grpc-protobuf-lite:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming grpc-api-1.57.0.jar (io.grpc:grpc-api:1.57.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming guava-32.0.1-jre.jar (com.google.guava:guava:32.0.1-jre) with ExternalDependencyInstrumentingArtifactTransform
+Transforming dagger-2.28.3.jar (com.google.dagger:dagger:2.28.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming javax.inject-1.jar (javax.inject:javax.inject:1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming bcutil-jdk18on-1.77.jar (org.bouncycastle:bcutil-jdk18on:1.77) with ExternalDependencyInstrumentingArtifactTransform
+Transforming bcprov-jdk18on-1.77.jar (org.bouncycastle:bcprov-jdk18on:1.77) with ExternalDependencyInstrumentingArtifactTransform
+Transforming trove4j-1.0.20200330.jar (org.jetbrains.intellij.deps:trove4j:1.0.20200330) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-compress-1.21.jar (org.apache.commons:commons-compress:1.21) with ExternalDependencyInstrumentingArtifactTransform
+Transforming httpclient-4.5.14.jar (org.apache.httpcomponents:httpclient:4.5.14) with ExternalDependencyInstrumentingArtifactTransform
+Transforming httpcore-4.4.16.jar (org.apache.httpcomponents:httpcore:4.4.16) with ExternalDependencyInstrumentingArtifactTransform
+Transforming javax.activation-1.2.0.jar (com.sun.activation:javax.activation:1.2.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming signflinger-8.4.0.jar (com.android:signflinger:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming zipflinger-8.4.0.jar (com.android:zipflinger:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming annotations-31.4.0.jar (com.android.tools:annotations:31.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jna-platform-5.6.0.jar (net.java.dev.jna:jna-platform:5.6.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming juniversalchardet-1.0.3.jar (com.googlecode.juniversalchardet:juniversalchardet:1.0.3) with ExternalDependencyInstrumentingArtifactTransform
+Transforming javax.annotation-api-1.3.2.jar (javax.annotation:javax.annotation-api:1.3.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming stax-ex-1.8.1.jar (org.jvnet.staxex:stax-ex:1.8.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jakarta.xml.bind-api-2.3.2.jar (jakarta.xml.bind:jakarta.xml.bind-api:2.3.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming txw2-2.3.2.jar (org.glassfish.jaxb:txw2:2.3.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming istack-commons-runtime-3.0.8.jar (com.sun.istack:istack-commons-runtime:3.0.8) with ExternalDependencyInstrumentingArtifactTransform
+Transforming FastInfoset-1.2.16.jar (com.sun.xml.fastinfoset:FastInfoset:1.2.16) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jakarta.activation-api-1.2.1.jar (jakarta.activation:jakarta.activation-api:1.2.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming auto-value-annotations-1.6.2.jar (com.google.auto.value:auto-value-annotations:1.6.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming error_prone_annotations-2.18.0.jar (com.google.errorprone:error_prone_annotations:2.18.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jose4j-0.7.0.jar (org.bitbucket.b_c:jose4j:0.7.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming slf4j-api-1.7.30.jar (org.slf4j:slf4j-api:1.7.30) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jdom2-2.0.6.jar (org.jdom:jdom2:2.0.6) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jsr305-3.0.2.jar (com.google.code.findbugs:jsr305:3.0.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming j2objc-annotations-2.8.jar (com.google.j2objc:j2objc-annotations:2.8) with ExternalDependencyInstrumentingArtifactTransform
+Transforming annotations-4.1.1.4.jar (com.google.android:annotations:4.1.1.4) with ExternalDependencyInstrumentingArtifactTransform
+Transforming animal-sniffer-annotations-1.23.jar (org.codehaus.mojo:animal-sniffer-annotations:1.23) with ExternalDependencyInstrumentingArtifactTransform
+Transforming perfmark-api-0.26.0.jar (io.perfmark:perfmark-api:0.26.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-codec-http2-4.1.93.Final.jar (io.netty:netty-codec-http2:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-handler-proxy-4.1.93.Final.jar (io.netty:netty-handler-proxy:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-codec-http-4.1.93.Final.jar (io.netty:netty-codec-http:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-handler-4.1.93.Final.jar (io.netty:netty-handler:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-transport-native-unix-common-4.1.93.Final.jar (io.netty:netty-transport-native-unix-common:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming checker-qual-3.33.0.jar (org.checkerframework:checker-qual:3.33.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-codec-1.11.jar (commons-codec:commons-codec:1.11) with ExternalDependencyInstrumentingArtifactTransform
+Transforming apksig-8.4.0.jar (com.android.tools.build:apksig:8.4.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming javawriter-2.5.0.jar (com.squareup:javawriter:2.5.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-gradle-plugin-annotations-1.9.24.jar (org.jetbrains.kotlin:kotlin-gradle-plugin-annotations:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-project-model-1.9.24.jar (org.jetbrains.kotlin:kotlin-project-model:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-tooling-core-1.9.24.jar (org.jetbrains.kotlin:kotlin-tooling-core:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-util-io-1.9.24.jar (org.jetbrains.kotlin:kotlin-util-io:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-daemon-embeddable-1.9.24.jar (org.jetbrains.kotlin:kotlin-daemon-embeddable:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-daemon-client-1.9.24.jar (org.jetbrains.kotlin:kotlin-daemon-client:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlinx-coroutines-core-jvm-1.5.0.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-jvm-1.9.24.jar (org.jetbrains.kotlin:kotlin-scripting-jvm:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming kotlin-scripting-common-1.9.24.jar (org.jetbrains.kotlin:kotlin-scripting-common:1.9.24) with ExternalDependencyInstrumentingArtifactTransform
+Transforming failureaccess-1.0.1.jar (com.google.guava:failureaccess:1.0.1) with ExternalDependencyInstrumentingArtifactTransform
+Transforming listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar (com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava) with ExternalDependencyInstrumentingArtifactTransform
+Transforming commons-logging-1.2.jar (commons-logging:commons-logging:1.2) with ExternalDependencyInstrumentingArtifactTransform
+Transforming jna-5.6.0.jar (net.java.dev.jna:jna:5.6.0) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-codec-socks-4.1.93.Final.jar (io.netty:netty-codec-socks:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-codec-4.1.93.Final.jar (io.netty:netty-codec:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-transport-4.1.93.Final.jar (io.netty:netty-transport:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-buffer-4.1.93.Final.jar (io.netty:netty-buffer:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-resolver-4.1.93.Final.jar (io.netty:netty-resolver:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+Transforming netty-common-4.1.93.Final.jar (io.netty:netty-common:4.1.93.Final) with ExternalDependencyInstrumentingArtifactTransform
+
+> Configure project :app
+Evaluating project ':app' using build file '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build.gradle.kts'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+Parsed shrinker version: 8.4.22
+All projects evaluated.
+Task path ':app:kaptGenerateStubsDebugKotlin' matched project ':app'
+Task name matched 'kaptGenerateStubsDebugKotlin'
+Selected primary task 'kaptGenerateStubsDebugKotlin' from project :app
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugBuildConfig', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kaptGenerateStubsDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#124,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#124,Execution worker,5,main]) started.
+:app:preBuild (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#124,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugBuildConfig (Thread[#124,Execution worker,5,main]) started.
+:app:generateDebugBuildConfig (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+Caching disabled for task ':app:generateDebugBuildConfig' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugBuildConfig' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#124,Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with ExtractAarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with ExtractAarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with ExtractAarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with AarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with AarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with AarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with AarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with AarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with AarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with AarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with AarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with AarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with AarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with AarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with AarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with ExtractAarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with AarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with AarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#124,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#124,Execution worker,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with AarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with AarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with ExtractAarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with AarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with ExtractAarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with AarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with ExtractAarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with AarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with ExtractAarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with AarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with ExtractAarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with AarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with ExtractAarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with ExtractAarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with AarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with AarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with AarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with AarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with AarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with ExtractAarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with ExtractAarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with AarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with AarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with AarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with AarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with AarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with AarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with AarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with ExtractAarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with AarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with AarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with ExtractAarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with AarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with ExtractAarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with ExtractAarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with AarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with ExtractAarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with AarTransform
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#124,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#124,Execution worker,5,main]) started.
+:app:mergeDebugResources (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#124,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#124,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Transforming android.jar with PlatformAttrTransform
+Transforming android.jar with PlatformAttrTransform
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#124,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#124,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#124,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with AarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with AarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with ExtractAarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with AarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with ExtractAarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with AarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with ExtractAarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with AarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with ExtractAarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with AarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with ExtractAarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with AarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with ExtractAarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with ExtractAarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with AarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with AarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with AarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with AarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with AarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with ExtractAarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with ExtractAarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with AarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with AarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with AarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with AarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with AarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with AarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with AarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with ExtractAarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with AarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with AarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with ExtractAarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with AarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with ExtractAarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with ExtractAarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with AarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with ExtractAarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with AarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with AarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with AarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with ExtractAarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with AarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with ExtractAarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with AarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with AarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with ExtractAarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with AarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with AarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with AarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with AarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with ExtractAarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with AarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with ExtractAarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with AarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with ExtractAarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with ExtractAarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with AarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with AarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with AarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with AarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with AarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with ExtractAarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with AarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with ExtractAarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with AarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with AarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with AarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with AarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with AarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with AarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with AarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with AarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with AarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with AarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with ExtractAarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with AarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with AarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with ExtractAarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with AarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with ExtractAarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with AarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with ExtractAarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with AarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with ExtractAarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with AarTransform
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#124,Execution worker,5,main]) started.
+:app:processDebugManifest (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#124,Execution worker,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#124,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Transforming aapt2-8.4.0-11315950-osx.jar (com.android.tools.build:aapt2:8.4.0-11315950) with Aapt2Extractor
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with AarResourcesCompilerTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with AarResourcesCompilerTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with ExtractAarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with AarResourcesCompilerTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with ExtractAarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with AarResourcesCompilerTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarResourcesCompilerTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with AarResourcesCompilerTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with ExtractAarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with AarResourcesCompilerTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with AarResourcesCompilerTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with AarResourcesCompilerTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with AarResourcesCompilerTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarResourcesCompilerTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarResourcesCompilerTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarResourcesCompilerTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarResourcesCompilerTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarResourcesCompilerTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with ExtractAarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with AarResourcesCompilerTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with ExtractAarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with AarResourcesCompilerTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with ExtractAarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with AarResourcesCompilerTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarResourcesCompilerTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarResourcesCompilerTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarResourcesCompilerTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarResourcesCompilerTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarResourcesCompilerTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarResourcesCompilerTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarResourcesCompilerTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarResourcesCompilerTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with ExtractAarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with AarResourcesCompilerTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with AarResourcesCompilerTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with AarResourcesCompilerTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with AarResourcesCompilerTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with AarResourcesCompilerTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with ExtractAarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with AarResourcesCompilerTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarResourcesCompilerTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarResourcesCompilerTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarResourcesCompilerTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with AarResourcesCompilerTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with ExtractAarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with AarResourcesCompilerTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with AarResourcesCompilerTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarResourcesCompilerTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with AarResourcesCompilerTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with AarResourcesCompilerTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with AarResourcesCompilerTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarResourcesCompilerTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with AarResourcesCompilerTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarResourcesCompilerTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with ExtractAarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with AarResourcesCompilerTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with AarResourcesCompilerTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarResourcesCompilerTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarResourcesCompilerTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with AarResourcesCompilerTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarResourcesCompilerTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with AarResourcesCompilerTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with ExtractAarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with AarResourcesCompilerTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with ExtractAarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with AarResourcesCompilerTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarResourcesCompilerTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarResourcesCompilerTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarResourcesCompilerTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarResourcesCompilerTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with AarResourcesCompilerTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarResourcesCompilerTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with AarResourcesCompilerTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with AarResourcesCompilerTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with AarResourcesCompilerTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarResourcesCompilerTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with ExtractAarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with AarResourcesCompilerTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with ExtractAarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with AarResourcesCompilerTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with LibrarySymbolTableTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with ExtractAarTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with LibrarySymbolTableTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with ExtractAarTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with LibrarySymbolTableTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with ExtractAarTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with LibrarySymbolTableTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with ExtractAarTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with LibrarySymbolTableTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with ExtractAarTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with LibrarySymbolTableTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with ExtractAarTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with LibrarySymbolTableTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with LibrarySymbolTableTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with ExtractAarTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with LibrarySymbolTableTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with ExtractAarTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with LibrarySymbolTableTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with ExtractAarTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with LibrarySymbolTableTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with ExtractAarTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with LibrarySymbolTableTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with ExtractAarTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with LibrarySymbolTableTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with ExtractAarTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with ExtractAarTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with ExtractAarTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with ExtractAarTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with ExtractAarTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with ExtractAarTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with LibrarySymbolTableTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with ExtractAarTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with LibrarySymbolTableTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with ExtractAarTransform
+Transforming accompanist-drawablepainter-0.32.0.aar (com.google.accompanist:accompanist-drawablepainter:0.32.0) with LibrarySymbolTableTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with ExtractAarTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with LibrarySymbolTableTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with ExtractAarTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with LibrarySymbolTableTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with LibrarySymbolTableTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with ExtractAarTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with LibrarySymbolTableTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with LibrarySymbolTableTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with LibrarySymbolTableTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with ExtractAarTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with LibrarySymbolTableTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with LibrarySymbolTableTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with LibrarySymbolTableTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with ExtractAarTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with LibrarySymbolTableTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with ExtractAarTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with LibrarySymbolTableTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with ExtractAarTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with LibrarySymbolTableTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with LibrarySymbolTableTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with ExtractAarTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with LibrarySymbolTableTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with ExtractAarTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with LibrarySymbolTableTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with ExtractAarTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with LibrarySymbolTableTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with ExtractAarTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with LibrarySymbolTableTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with ExtractAarTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with LibrarySymbolTableTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with ExtractAarTransform
+Transforming emoji2-1.3.0.aar (androidx.emoji2:emoji2:1.3.0) with LibrarySymbolTableTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with ExtractAarTransform
+Transforming lifecycle-process-2.8.3.aar (androidx.lifecycle:lifecycle-process:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with ExtractAarTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with LibrarySymbolTableTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with ExtractAarTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with LibrarySymbolTableTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with ExtractAarTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with LibrarySymbolTableTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with ExtractAarTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with LibrarySymbolTableTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with ExtractAarTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with LibrarySymbolTableTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with ExtractAarTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with LibrarySymbolTableTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with ExtractAarTransform
+Transforming autofill-1.0.0.aar (androidx.autofill:autofill:1.0.0) with LibrarySymbolTableTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with ExtractAarTransform
+Transforming appcompat-resources-1.6.1.aar (androidx.appcompat:appcompat-resources:1.6.1) with LibrarySymbolTableTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-animated-1.1.0.aar (androidx.vectordrawable:vectordrawable-animated:1.1.0) with LibrarySymbolTableTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with LibrarySymbolTableTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with ExtractAarTransform
+Transforming vectordrawable-1.1.0.aar (androidx.vectordrawable:vectordrawable:1.1.0) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with ExtractAarTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with LibrarySymbolTableTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with ExtractAarTransform
+Transforming customview-poolingcontainer-1.0.0.aar (androidx.customview:customview-poolingcontainer:1.0.0) with LibrarySymbolTableTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with ExtractAarTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with LibrarySymbolTableTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with ExtractAarTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with LibrarySymbolTableTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with ExtractAarTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with LibrarySymbolTableTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with ExtractAarTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with LibrarySymbolTableTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with ExtractAarTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with LibrarySymbolTableTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with ExtractAarTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with LibrarySymbolTableTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with ExtractAarTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with LibrarySymbolTableTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+Transforming interpolator-1.0.0.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with ExtractAarTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with LibrarySymbolTableTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with ExtractAarTransform
+Transforming profileinstaller-1.3.1.aar (androidx.profileinstaller:profileinstaller:1.3.1) with LibrarySymbolTableTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with ExtractAarTransform
+Transforming startup-runtime-1.1.1.aar (androidx.startup:startup-runtime:1.1.1) with LibrarySymbolTableTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with ExtractAarTransform
+Transforming tracing-1.0.0.aar (androidx.tracing:tracing:1.0.0) with LibrarySymbolTableTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with ExtractAarTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with LibrarySymbolTableTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with ExtractAarTransform
+Transforming exifinterface-1.3.7.aar (androidx.exifinterface:exifinterface:1.3.7) with LibrarySymbolTableTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with ExtractAarTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with LibrarySymbolTableTransform
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:kaptGenerateStubsDebugKotlin (Thread[#124,Execution worker,5,main]) started.
+:app:kaptGenerateStubsDebugKotlin (Thread[#124,Execution worker,5,main]) started.
+
+> Task :app:kaptGenerateStubsDebugKotlin
+Transforming hilt-navigation-compose-1.2.0.aar (androidx.hilt:hilt-navigation-compose:1.2.0) with AarToClassTransform
+Transforming hilt-navigation-1.2.0.aar (androidx.hilt:hilt-navigation:1.2.0) with AarToClassTransform
+Transforming hilt-android-2.51.1.aar (com.google.dagger:hilt-android:2.51.1) with AarToClassTransform
+Transforming play-services-location-21.3.0.aar (com.google.android.gms:play-services-location:21.3.0) with AarToClassTransform
+Transforming play-services-base-18.5.0.aar (com.google.android.gms:play-services-base:18.5.0) with AarToClassTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarToClassTransform
+Transforming play-services-tasks-18.2.0.aar (com.google.android.gms:play-services-tasks:18.2.0) with AarToClassTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarToClassTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarToClassTransform
+Transforming play-services-basement-18.4.0.aar (com.google.android.gms:play-services-basement:18.4.0) with AarToClassTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarToClassTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarToClassTransform
+Transforming fragment-1.5.1.aar (androidx.fragment:fragment:1.5.1) with AarToClassTransform
+Transforming activity-1.9.0.aar (androidx.activity:activity:1.9.0) with AarToClassTransform
+Transforming navigation-compose-2.5.1.aar (androidx.navigation:navigation-compose:2.5.1) with AarToClassTransform
+Transforming activity-compose-1.9.0.aar (androidx.activity:activity-compose:1.9.0) with AarToClassTransform
+Transforming navigation-runtime-ktx-2.5.1.aar (androidx.navigation:navigation-runtime-ktx:2.5.1) with AarToClassTransform
+Transforming navigation-runtime-2.5.1.aar (androidx.navigation:navigation-runtime:2.5.1) with AarToClassTransform
+Transforming activity-ktx-1.9.0.aar (androidx.activity:activity-ktx:1.9.0) with AarToClassTransform
+Transforming loader-1.0.0.aar (androidx.loader:loader:1.0.0) with AarToClassTransform
+Transforming viewpager-1.0.0.aar (androidx.viewpager:viewpager:1.0.0) with AarToClassTransform
+Transforming customview-1.0.0.aar (androidx.customview:customview:1.0.0) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming core-1.13.1.aar (androidx.core:core:1.13.1) with AarToClassTransform
+Transforming coil-compose-2.6.0.aar (io.coil-kt:coil-compose:2.6.0) with AarToClassTransform
+Transforming coil-compose-base-2.6.0.aar (io.coil-kt:coil-compose-base:2.6.0) with AarToClassTransform
+Transforming coil-2.6.0.aar (io.coil-kt:coil:2.6.0) with AarToClassTransform
+Transforming coil-base-2.6.0.aar (io.coil-kt:coil-base:2.6.0) with AarToClassTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3) with AarToClassTransform
+Transforming lifecycle-livedata-2.8.3.aar (androidx.lifecycle:lifecycle-livedata:2.8.3) with AarToClassTransform
+Transforming lifecycle-runtime-release.aar (androidx.lifecycle:lifecycle-runtime-android:2.8.3) with AarToClassTransform
+Transforming lifecycle-viewmodel-compose-release.aar (androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.3) with AarToClassTransform
+Transforming lifecycle-livedata-core-2.8.3.aar (androidx.lifecycle:lifecycle-livedata-core:2.8.3) with AarToClassTransform
+Transforming lifecycle-viewmodel-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel:2.8.3) with AarToClassTransform
+Transforming lifecycle-common-jvm-2.8.3.jar (androidx.lifecycle:lifecycle-common-jvm:2.8.3) with IdentityTransform
+Transforming lifecycle-viewmodel-release.aar (androidx.lifecycle:lifecycle-viewmodel-android:2.8.3) with AarToClassTransform
+Transforming navigation-common-ktx-2.5.1.aar (androidx.navigation:navigation-common-ktx:2.5.1) with AarToClassTransform
+Transforming navigation-common-2.5.1.aar (androidx.navigation:navigation-common:2.5.1) with AarToClassTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3) with AarToClassTransform
+Transforming lifecycle-runtime-ktx-release.aar (androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3) with AarToClassTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3.aar (androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3) with AarToClassTransform
+Transforming core-ktx-1.13.1.aar (androidx.core:core-ktx:1.13.1) with AarToClassTransform
+Transforming material3-release.aar (androidx.compose.material3:material3-android:1.2.1) with AarToClassTransform
+Transforming annotation-experimental-1.4.0.aar (androidx.annotation:annotation-experimental:1.4.0) with AarToClassTransform
+Transforming savedstate-ktx-1.2.1.aar (androidx.savedstate:savedstate-ktx:1.2.1) with AarToClassTransform
+Transforming savedstate-1.2.1.aar (androidx.savedstate:savedstate:1.2.1) with AarToClassTransform
+Transforming ui-util-release.aar (androidx.compose.ui:ui-util-android:1.6.8) with AarToClassTransform
+Transforming ui-unit-release.aar (androidx.compose.ui:ui-unit-android:1.6.8) with AarToClassTransform
+Transforming logging-interceptor-4.12.0.jar (com.squareup.okhttp3:logging-interceptor:4.12.0) with IdentityTransform
+Transforming okhttp-4.12.0.jar (com.squareup.okhttp3:okhttp:4.12.0) with IdentityTransform
+Transforming ui-text-release.aar (androidx.compose.ui:ui-text-android:1.6.8) with AarToClassTransform
+Transforming retrofit-2.11.0.jar (com.squareup.retrofit2:retrofit:2.11.0) with IdentityTransform
+Transforming foundation-layout-release.aar (androidx.compose.foundation:foundation-layout-android:1.6.8) with AarToClassTransform
+Transforming converter-gson-2.11.0.jar (com.squareup.retrofit2:converter-gson:2.11.0) with IdentityTransform
+Transforming material-icons-core-release.aar (androidx.compose.material:material-icons-core-android:1.6.8) with AarToClassTransform
+Transforming material-icons-extended-release.aar (androidx.compose.material:material-icons-extended-android:1.6.8) with AarToClassTransform
+Transforming material-ripple-release.aar (androidx.compose.material:material-ripple-android:1.6.8) with AarToClassTransform
+Transforming foundation-release.aar (androidx.compose.foundation:foundation-android:1.6.8) with AarToClassTransform
+Transforming animation-core-release.aar (androidx.compose.animation:animation-core-android:1.6.8) with AarToClassTransform
+Transforming animation-release.aar (androidx.compose.animation:animation-android:1.6.8) with AarToClassTransform
+Transforming ui-geometry-release.aar (androidx.compose.ui:ui-geometry-android:1.6.8) with AarToClassTransform
+Transforming ui-graphics-release.aar (androidx.compose.ui:ui-graphics-android:1.6.8) with AarToClassTransform
+Transforming ui-release.aar (androidx.compose.ui:ui-android:1.6.8) with AarToClassTransform
+Transforming ui-tooling-preview-release.aar (androidx.compose.ui:ui-tooling-preview-android:1.6.8) with AarToClassTransform
+Transforming runtime-saveable-release.aar (androidx.compose.runtime:runtime-saveable-android:1.6.8) with AarToClassTransform
+Transforming runtime-release.aar (androidx.compose.runtime:runtime-android:1.6.8) with AarToClassTransform
+Transforming datastore-core-release.aar (androidx.datastore:datastore-core-android:1.1.1) with AarToClassTransform
+Transforming datastore-release.aar (androidx.datastore:datastore-android:1.1.1) with AarToClassTransform
+Transforming datastore-preferences-release.aar (androidx.datastore:datastore-preferences-android:1.1.1) with AarToClassTransform
+Transforming datastore-preferences-core-jvm-1.1.1.jar (androidx.datastore:datastore-preferences-core-jvm:1.1.1) with IdentityTransform
+Transforming kotlin-stdlib-jdk8-1.9.0.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0) with IdentityTransform
+Transforming datastore-core-okio-jvm-1.1.1.jar (androidx.datastore:datastore-core-okio-jvm:1.1.1) with IdentityTransform
+Transforming kotlinx-coroutines-core-jvm-1.7.3.jar (org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.7.3) with IdentityTransform
+Transforming kotlinx-coroutines-android-1.7.3.jar (org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3) with IdentityTransform
+Transforming versionedparcelable-1.1.1.aar (androidx.versionedparcelable:versionedparcelable:1.1.1) with AarToClassTransform
+Transforming core-runtime-2.2.0.aar (androidx.arch.core:core-runtime:2.2.0) with AarToClassTransform
+Transforming collection-jvm-1.4.0.jar (androidx.collection:collection-jvm:1.4.0) with IdentityTransform
+Transforming kotlin-stdlib-jdk7-1.9.0.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0) with IdentityTransform
+Transforming core-common-2.2.0.jar (androidx.arch.core:core-common:2.2.0) with IdentityTransform
+Transforming annotation-jvm-1.8.0.jar (androidx.annotation:annotation-jvm:1.8.0) with IdentityTransform
+Transforming dagger-2.51.1.jar (com.google.dagger:dagger:2.51.1) with IdentityTransform
+Transforming location-6.4.1.jar (com.amap.api:location:6.4.1) with IdentityTransform
+Transforming annotations-23.0.0.jar (org.jetbrains:annotations:23.0.0) with IdentityTransform
+Transforming kotlin-stdlib-1.9.24.jar (org.jetbrains.kotlin:kotlin-stdlib:1.9.24) with IdentityTransform
+Transforming hilt-core-2.51.1.jar (com.google.dagger:hilt-core:2.51.1) with IdentityTransform
+Transforming okio-jvm-3.8.0.jar (com.squareup.okio:okio-jvm:3.8.0) with IdentityTransform
+Transforming search-9.7.0.jar (com.amap.api:search:9.7.0) with IdentityTransform
+Transforming gson-2.11.0.jar (com.google.code.gson:gson:2.11.0) with IdentityTransform
+Transforming javax.inject-1.jar (javax.inject:javax.inject:1) with IdentityTransform
+Transforming dagger-lint-aar-2.51.1.aar (com.google.dagger:dagger-lint-aar:2.51.1) with AarToClassTransform
+Transforming jsr305-3.0.2.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
+Transforming error_prone_annotations-2.27.0.jar (com.google.errorprone:error_prone_annotations:2.27.0) with IdentityTransform
+Transforming R.jar with ClasspathEntrySnapshotTransform
+Transforming hilt-navigation-compose-1.2.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming hilt-navigation-1.2.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming hilt-android-2.51.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming play-services-location-21.3.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming play-services-base-18.5.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming play-services-tasks-18.2.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming play-services-basement-18.4.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming fragment-1.5.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming activity-1.9.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-compose-2.5.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming activity-compose-1.9.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-runtime-ktx-2.5.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-runtime-2.5.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming activity-ktx-1.9.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming loader-1.0.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming viewpager-1.0.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming customview-1.0.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming core-1.13.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming coil-compose-2.6.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming coil-compose-base-2.6.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming coil-2.6.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming coil-base-2.6.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-livedata-core-ktx-2.8.3-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-livedata-2.8.3-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-runtime-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-viewmodel-compose-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-common-jvm-2.8.3.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-livedata-core-2.8.3-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-viewmodel-2.8.3-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-viewmodel-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-common-ktx-2.5.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming navigation-common-2.5.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-viewmodel-ktx-2.8.3-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-runtime-ktx-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming lifecycle-viewmodel-savedstate-2.8.3-api.jar with ClasspathEntrySnapshotTransform
+Transforming core-ktx-1.13.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming material3-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming annotation-experimental-1.4.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming savedstate-ktx-1.2.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming savedstate-1.2.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming logging-interceptor-4.12.0.jar with ClasspathEntrySnapshotTransform
+Transforming converter-gson-2.11.0.jar with ClasspathEntrySnapshotTransform
+Transforming retrofit-2.11.0.jar with ClasspathEntrySnapshotTransform
+Transforming okhttp-4.12.0.jar with ClasspathEntrySnapshotTransform
+Transforming ui-util-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming ui-unit-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming ui-text-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming foundation-layout-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming material-icons-core-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming material-icons-extended-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming material-ripple-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming foundation-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming animation-core-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming animation-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming ui-geometry-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming ui-graphics-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming ui-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming ui-tooling-preview-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming runtime-saveable-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming runtime-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming datastore-core-okio-jvm-1.1.1.jar with ClasspathEntrySnapshotTransform
+Transforming datastore-core-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming datastore-preferences-core-jvm-1.1.1.jar with ClasspathEntrySnapshotTransform
+Transforming datastore-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming datastore-preferences-release-api.jar with ClasspathEntrySnapshotTransform
+Transforming kotlinx-coroutines-core-jvm-1.7.3.jar with ClasspathEntrySnapshotTransform
+Transforming kotlinx-coroutines-android-1.7.3.jar with ClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-jdk8-1.9.0.jar with ClasspathEntrySnapshotTransform
+Transforming versionedparcelable-1.1.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming collection-jvm-1.4.0.jar with ClasspathEntrySnapshotTransform
+Transforming core-runtime-2.2.0-api.jar with ClasspathEntrySnapshotTransform
+Transforming core-common-2.2.0.jar with ClasspathEntrySnapshotTransform
+Transforming annotation-jvm-1.8.0.jar with ClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-jdk7-1.9.0.jar with ClasspathEntrySnapshotTransform
+Transforming okio-jvm-3.8.0.jar with ClasspathEntrySnapshotTransform
+Transforming kotlin-stdlib-1.9.24.jar with ClasspathEntrySnapshotTransform
+Transforming gson-2.11.0.jar with ClasspathEntrySnapshotTransform
+Transforming location-6.4.1.jar with ClasspathEntrySnapshotTransform
+Transforming search-9.7.0.jar with ClasspathEntrySnapshotTransform
+Transforming annotations-23.0.0.jar with ClasspathEntrySnapshotTransform
+Transforming hilt-core-2.51.1.jar with ClasspathEntrySnapshotTransform
+Transforming dagger-2.51.1.jar with ClasspathEntrySnapshotTransform
+Transforming javax.inject-1.jar with ClasspathEntrySnapshotTransform
+Transforming dagger-lint-aar-2.51.1-api.jar with ClasspathEntrySnapshotTransform
+Transforming jsr305-3.0.2.jar with ClasspathEntrySnapshotTransform
+Transforming error_prone_annotations-2.27.0.jar with ClasspathEntrySnapshotTransform
+Transforming android.jar with ClasspathEntrySnapshotTransform
+Transforming core-lambda-stubs.jar with ClasspathEntrySnapshotTransform
+Caching disabled for task ':app:kaptGenerateStubsDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptGenerateStubsDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:kaptGenerateStubsDebugKotlin'.
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/main/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/kotlin', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+file or directory '/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/src/debug/java', not found
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: starting the daemon as: /Applications/Android Studio.app/Contents/jbr/Contents/Home/bin/java -cp /Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.9.24/78dab849090e6c5e2eadb6e59a11cdc28fb67a08/kotlin-compiler-embeddable-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.24/9928532f12c66ad816a625b3f9984f8368ca6d2b/kotlin-stdlib-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.9.24/96771497da90fbc5af1c90fce148db2595a62502/kotlin-script-runtime-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/1cbe9c92c12a94eea200d23c2bbaedaf3daf5132/kotlin-reflect-1.6.10.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.9.24/86685b9c5e8d170925bd9ddbdc263374a6a73281/kotlin-daemon-embeddable-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20200330/3afb14d5f9ceb459d724e907a21145e8ff394f02/trove4j-1.0.20200330.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar -Djava.awt.headless=true -D$java.rmi.server.hostname=127.0.0.1 -Xmx2048m -Dkotlin.environment.keepalive -ea --add-exports java.base/sun.nio.ch=ALL-UNNAMED org.jetbrains.kotlin.daemon.KotlinCompileDaemon --daemon-runFilesPath /Users/hawk/Library/Application Support/kotlin/daemon --daemon-autoshutdownIdleSeconds=7200 --daemon-compilerClasspath /Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.9.24/78dab849090e6c5e2eadb6e59a11cdc28fb67a08/kotlin-compiler-embeddable-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.9.24/9928532f12c66ad816a625b3f9984f8368ca6d2b/kotlin-stdlib-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.9.24/96771497da90fbc5af1c90fce148db2595a62502/kotlin-script-runtime-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.10/1cbe9c92c12a94eea200d23c2bbaedaf3daf5132/kotlin-reflect-1.6.10.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.9.24/86685b9c5e8d170925bd9ddbdc263374a6a73281/kotlin-daemon-embeddable-1.9.24.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20200330/3afb14d5f9ceb459d724e907a21145e8ff394f02/trove4j-1.0.20200330.jar:/Users/hawk/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar
+i: Received the message signalling that the daemon is ready
+i: new daemon started, trying to find it
+i: found daemon on port 17524 (25 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=false, modifiedFiles=null, deletedFiles=null, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, outputFiles=[/Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build/tmp/kapt3/incrementalData/debug, /Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build/tmp/kapt3/stubs/debug, /Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable, /Users/hawk/Github/Antigravity/HotelRatingGenerator/app/build/kotlin/kaptGenerateStubsDebugKotlin/local-state])
+e: Could not load module <Error module>
+
+> Task :app:kaptGenerateStubsDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:kaptGenerateStubsDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 24s
+16 actionable tasks: 2 executed, 14 up-to-date
+Watched directory hierarchies: [/Users/hawk/Github/Antigravity/HotelRatingGenerator]
